@@ -77,6 +77,9 @@ DEVICE_MATRIX_FILE := hardware/qcom-caf/common/compatibility_matrix.xml
 # LMKD
 TARGET_LMKD_STATS_LOG := true
 
+# Metadata
+BOARD_USES_METADATA_PARTITION := true
+
 # Partitions
 BOARD_BOOTIMAGE_PARTITION_SIZE := 67092480
 BOARD_CACHEIMAGE_PARTITION_SIZE := 268435456
